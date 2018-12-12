@@ -1,0 +1,26 @@
+
+<ion-header>
+  <ion-navbar >
+    
+    <ion-buttons end>
+        <button ion-button icon-only >
+            <ion-icon name="search"></ion-icon>
+          </button>
+      <button ion-button icon-only (click)="navigateToHome()">
+        <ion-icon name="home"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title >Documents</ion-title>
+
+  </ion-navbar>
+  
+</ion-header>
+
+
+<ion-content  >
+  <ion-tabs>
+    <ion-tab tabIcon="paper" [root]="uploaddocument" tabTitle="Upload Document"></ion-tab>
+    <ion-tab tabIcon="md-cloud-upload" [root]="scandocument" tabTitle="Scan Document"></ion-tab>
+  </ion-tabs>
+</ion-content>
+

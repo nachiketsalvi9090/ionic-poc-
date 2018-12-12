@@ -1,0 +1,26 @@
+page-home {
+    .container{
+      margin-top:161px;
+      margin-left: 55px;
+      margin-right: 55px; 
+    }
+    .timesheet{
+      margin-top:20px;
+      background-color: #000000;
+      color: white;
+      border-color: white;
+    }
+    ion-navbar{
+      margin-top: 22px;
+    }
+    .setting-btn{
+      margin-right: 24px;
+    }
+    .home-btn{
+      margin-right: 24px;
+    }
+  .bg-image{
+    background-image : url('../../assets/imgs/bg.png')    ;
+  }
+  
+}

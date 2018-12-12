@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar transparent>
+    <ion-buttons end>
+      <button class="setting-btn"ion-button icon-only color="light">
+        <ion-icon name="settings"></ion-icon>
+      </button>
+      <button class="home-btn" ion-button icon-only color="light">
+        <ion-icon name="home"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="bg-image">
+  <div class="container">
+    <button
+      block
+      ion-button
+      class="timesheet"
+      outline
+      color="dark"
+      (click)="navigateToRevardsRecognitaion()"
+    >
+      Rewards &amp; Recognation
+    </button>
+
+    <button block ion-button class="timesheet" outline color="dark">
+      Timesheet
+    </button>
+    <button
+      block
+      ion-button
+      class="timesheet"
+      outline
+      color="dark"
+      (click)="navigateToItSubmission()"
+    >
+      IT Submission
+    </button>
+    <button block ion-button class="timesheet" outline color="dark">ADP</button>
+    <button block ion-button class="timesheet" outline color="dark">
+      Mob Cafe
+    </button>
+  </div>
+</ion-content>

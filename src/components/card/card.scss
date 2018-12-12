@@ -1,0 +1,91 @@
+card {
+    .card {
+        height: 264px;
+        border-radius: 2px;
+        background-color: #ffffff;
+        margin: 16px 15px;
+      }
+      .card-header {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        height: 64px;
+        background-color: #f9f9f9;
+      }
+      .user-icon {
+        flex: 0.2;
+        width: 44px;
+        height: 44px;
+        margin: 10px 12px;
+      }
+      .header-content {
+        flex-direction: row;
+      }
+      .nominated-by {
+        font-size: 15px;
+        color: #6a6a6a;
+        padding-top: 17px;
+        letter-spacing: 0px;
+        font-weight: normal;
+      }
+    
+      .award-date {
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: black;
+        font-weight: bold;
+      }
+      .card-body {
+        height: 105px;
+        font-size: 12px;
+        display: flex;
+        flex-direction: row;
+        padding: 8px 13px;
+        font-weight: normal;
+        line-height: 17px;
+        letter-spacing: 0px;
+        color: #575757;
+        text-align: justify;
+        text-justify: inter-word;
+      }
+      .card-like-panel {
+        height: 33px;
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+      }
+      .like-icon {
+        flex: 0.01;
+        height: 16px;
+        width: 17px;
+        margin: 10px 14px;
+      }
+      .like-by {
+        flex: 0.59;
+        margin-top: 12px;
+        font-size: 12px;
+        color: black;
+      }
+      .comments {
+        flex: 0.4;
+        margin-top: 12px;
+        font-size: 12px;
+        color: black;
+      }
+      .card-footer {
+        margin-top:5px;
+        display: flex;
+        flex-direction: row;
+      }
+      .like-button {
+        margin: 8px 12px;
+        width: 50px;
+        height: 30px;
+      }
+      .comment-box {
+        margin: 1px 12px;
+        height: 30px;
+        border-radius: 25px;
+        border: 1px solid #dddddd;
+      }
+}
